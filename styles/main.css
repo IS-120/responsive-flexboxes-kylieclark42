@@ -53,7 +53,7 @@ nav > ul {
 /*------ HERO SETUP ------*/
 .hero {
   position: relative;
-  color: #e8e8e8;
+  color: var(--white);
   margin-bottom: 6rem;
   align-self: stretch;
   display: flex;
