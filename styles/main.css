@@ -54,6 +54,7 @@ nav a[href]:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .hero_overlays {
@@ -69,7 +70,7 @@ nav a[href]:hover {
   bottom: 0px;
 }
 
-.hero h1 {
+/* .hero h1 { 
   margin: 0;
   padding: 0;
   position: absolute;
@@ -78,6 +79,7 @@ nav a[href]:hover {
   text-shadow: 2px 4px #333;
   font-size: clamp(4rem, 7vw, 6rem);
 }
+*/
 
 .hero_subtitle {
   margin: 0;
