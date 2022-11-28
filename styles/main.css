@@ -120,6 +120,7 @@ picture img {
 }
 
 .button {
+  display: inline-block;
   color: var(--white);
   font-size: 14px;
   font-weight: bold;
@@ -127,7 +128,6 @@ picture img {
   border-radius: 1000px;
   transition: background-color 300ms ease;
   background-color: var(--dark-red);
-  display: inline-block;
 }
 
 .button:hover {
@@ -138,6 +138,11 @@ picture img {
 .panel {
   display: flex;
   background-color: aqua;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 .image-wrapper {
