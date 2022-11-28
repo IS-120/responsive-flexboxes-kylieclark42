@@ -39,7 +39,7 @@
       </ul>
     </nav>
   </header>
-  <section class="hero">
+  <div class="hero">
     <picture>
       <source media="(min-width: 769px)" srcset="images/hero-laptop-1920w.png">
       <source media="(min-width: 381px)" srcset="images/hero-tablet-768w.png">
@@ -50,10 +50,10 @@
       <h1> Kylie's Cookbook</h1>
       <p>Begin your cooking adventure.</p>
     </div>
-  </section>
+  </div>
   <main>
-    <article>
-      <div class="text-content">
+    <article class="panel">
+      <div class="text-wrapper">
         <h2>Welcome to My Cookbook</h2>
         <p>
           <strong>Hi, my name is Kylie Clark.</strong>
@@ -64,16 +64,24 @@
           organize my delicious findings and keep track of my precious recipes.
         </p>
         <a href="#" class="button">See More</a>
+        <div class="image-wrapper">
+          <img src="images/kylieclark-560px.jpg" alt="Picture of Kylie Clark" height="560px" width="560px">
+        </div>
       </div>
     </article>
-    <article>
-      <h2>Here's How the Cookbook Works</h2>
-      <p>Click the button that says
-        <em>"My Cookbook"</em>
-        and then choose which type of meal you are looking for. Then choose what looks
-        the most appealing to you and cook it! Then enjoy the deliciousness.
-      </p>
-      <a href="#" class="button">My Cookbook</a>
+    <article class="panel">
+      <div class="text-wrapper">
+        <h2>Here's How the Cookbook Works</h2>
+        <p>Click the button that says
+          <em>"My Cookbook"</em>
+          and then choose which type of meal you are looking for. Then choose what looks
+          the most appealing to you and cook it! Then enjoy the deliciousness.
+        </p>
+        <a href="#" class="button">My Cookbook</a>
+        <div class="image-wrapper">
+          <img src="images/cookbook-560px.jpg" alt="Cookbook on counter." height="560px" width="560px">
+        </div>
+      </div>
     </article>
   </main>
   <h2 class="special">Featured Meals of the Week</h2>
