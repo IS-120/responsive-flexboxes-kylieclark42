@@ -60,6 +60,10 @@ nav > ul {
   justify-content: center;
  }
 
+ .hero > h1 {
+  font-size: clamp(1rem, 4vw, 3.25rem);
+ }
+
 .hero_overlay {
   position: absolute;
   align-self: center;
@@ -96,10 +100,7 @@ a[href]:hover {
   color: var(--wool);
 }
 
-h1 {
-  font-size: clamp(1rem, 4vw, 3.25rem);
-}
-
+h1,
 h2,
 h3 {
   font-family: "Lora", serif;
