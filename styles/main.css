@@ -129,9 +129,6 @@ picture img {
   order: 1;
   }
 
-.image-wrapper {
-
-}
 
 * {
   box-sizing: border-box;
@@ -270,6 +267,7 @@ h2{
 .cards > * {
   flex: 1 1 33%;
 }
+}
 
 
 @media (min-width: 801px) {
@@ -279,6 +277,5 @@ h2{
     flex-wrap: nowrap;
   }
   .cards > * {
-    flex: 1 1 0;
+    flex: 1 1 0;}
   }
-}
