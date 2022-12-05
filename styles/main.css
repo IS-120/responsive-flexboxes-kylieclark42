@@ -60,8 +60,9 @@ nav > ul {
   justify-content: center;
  }
 
- .hero > h1 {
-  font-size: clamp(1rem, 4vw, 3.25rem);
+ .hero h1 {
+  font-size: clamp(1rem, 7vw, 6rem);
+  margin: 0;
  }
 
 .hero_overlay {
@@ -71,6 +72,9 @@ nav > ul {
   flex-wrap: nowrap;
   text-shadow: 2px 3px #333;
   font-size: clamp(1rem, 4vw, 3.25rem);
+  display: flex;
+  inset: 10 0 0 0;
+  align-items: center;
 }
 
 main {
@@ -244,6 +248,10 @@ nav ul {
    flex-direction: row;
    gap: 50px;
  }
+ .left {
+  order: 1;
+  flex: .6
+}
 .text-wrapper {
   order: 0;
   flex: .6
@@ -254,10 +262,7 @@ flex: .4;
 h2{
   margin: 0;
 }
-.left {
-  order: 1;
-  flex: .6
-}
+
 
 .cards {
   display: flex;
